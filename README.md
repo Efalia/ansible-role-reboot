@@ -1,4 +1,4 @@
-# Reboot
+# Reboot Server
 
 Redémarre la machine si le rôle détecte qu'elle en a besoin : 
 - La machine contient un fichier `/run/reboot-required` (standard debian)
@@ -27,7 +27,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-        - ../roles/reboot
+        - { role: reboot_server }
 
 
 License

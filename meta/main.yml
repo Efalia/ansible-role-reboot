@@ -1,5 +1,6 @@
 galaxy_info:
   author: Efalia R&D
+  role_name: reboot_server
   description: Rôle qui redémarre la machine si nécessaire
   company: Efalia
 
